@@ -1,14 +1,18 @@
-# Special Pythagorean triplet
+# Summation of primes
 
-import math
+def p10(cap):
+    
+    psum=2
+    plist=[2]
 
-def p9(x):
-
-    for i in range(1,x):
-        for j in range(1,x):
-            for k in range(1,x):
-                if i**2 + j**2 == k**2:
-                    if i + j + k == x:
-                        print(i*j*k)
+    for i in range(3,cap,2):
+        for j in plist:
+            if(i % j ==0):
+                break
+        else:
+            psum=psum+i
+            plist.append(i)
+            print(i,psum)
+    print(psum)
         
-p9(1000)
+p10(2000000)
