@@ -1,5 +1,5 @@
 # Project Euler
-# This repo contains code for solving problemns sourced through the Project Euler website (https://projecteuler.net/)
+# This repo contains code for solving problems sourced through the Project Euler website (https://projecteuler.net/)
 # Note that in accordance with the website rules:
 # Sharing solutions outside of Project Euler is not allowed however the first one-hundred problems may be to aims to instruct methods, 
 # not just provide answers, and does not directly threaten to undermine the enjoyment of solving later problems. 
