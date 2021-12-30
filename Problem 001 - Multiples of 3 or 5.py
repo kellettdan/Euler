@@ -26,3 +26,13 @@ def p1():
         
 if __name__ == "__p1__":
     p1()
+
+# Alternative 1-liner:
+# Filter function only retains elements in a sequence meeting requirement
+# In this case the filter keeps only elements in 1 to 1000 that are multiples of 3 or 5
+# Reduce function applies a function to all values in a list (defined in functools module)
+# In this case add together elements in the list
+# Both use the lambda function which allows any number of items in the list
+
+# import functools
+# print(functools.reduce(lambda x,y: x+y, filter(lambda n: n%3==0 or n%5==0, range(1000))))
