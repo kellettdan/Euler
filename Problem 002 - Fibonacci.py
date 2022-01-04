@@ -38,3 +38,13 @@ def p2():
 
 if __name__ == "__p2__":
     p2()
+
+# 5-line approach with no need for modulos
+# Initialises a (f(1)), b (f(2)), c (running sum)
+a,b,c=1,2,0
+while b < 4000000:
+# Adds b to running total
+    c+=b
+# Renames a & b to the next F-numbers
+    a,b=a+b+b,a+a+b+b+b
+print(c)
