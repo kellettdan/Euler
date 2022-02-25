@@ -54,7 +54,7 @@ grid20 = [[8, 2, 22, 97, 38, 15, 00, 40, 00, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91
 
 # Set up a function called p11
 def p11():
-# Initialise maxprod as the currnt highest product
+# Initialise maxprod as the current highest product
     maxprod=0
 # Loop round all horizontals first, row by row
     for i in range(0,17):
